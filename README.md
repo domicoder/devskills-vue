@@ -44,11 +44,13 @@ Open Demo: [Devskillsvue live demo](https://devskillsvue.netlify.app/)
 
 ```$ npm install```
 
-```$ npm start``` or ```npm run serve```
+[Click here to setup environment variables to API](https://github.com/domicoder/restify-restful-api#environtment-variables)
+
+After setup variables run: ```$ npm start``` or ```npm run serve```
 
 ##### Clone frontend repository (this)
 
-```$ open directory newcombin```
+```$ Open directory newcombin```, or if you are in API git repository ```cd ..```
 
 ```$ git clone https://github.com/domicoder/devskills-vue.git```
 
@@ -57,7 +59,11 @@ Open Demo: [Devskillsvue live demo](https://devskillsvue.netlify.app/)
 ##### npm packages
 ```$ npm install```
 
-```$ npm start``` or ```npm run serve```
+Open Visual Studio Code ```$ code .```
+
+[Click here to setup environment variables to Vue Project](https://github.com/domicoder/devskills-vue#environment-variables-)
+
+After setup variables run: ```$ npm start``` or ```npm run serve```
 
 ##### Unit test
 ```$ npm test```
