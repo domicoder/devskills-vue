@@ -1,0 +1,48 @@
+{
+  "name": "devskills-vue",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "npm run serve",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "test:unit": "vue-cli-service test:unit --setupTestFrameworkScriptFile=./tests/unit/setup.js",
+    "test": "npm run test:unit",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "core-js": "^3.6.5",
+    "register-service-worker": "^1.7.1",
+    "v-lazy-image": "^2.1.1",
+    "v-mask": "^2.3.0",
+    "vue": "^2.6.11",
+    "vue-lottie": "^0.2.1",
+    "vue-router": "^3.2.0",
+    "vuelidate": "^0.7.6",
+    "vuetify": "^2.6.0",
+    "vuex": "^3.4.0"
+  },
+  "devDependencies": {
+    "@mdi/font": "^6.6.96",
+    "@vue/cli-plugin-babel": "~4.5.13",
+    "@vue/cli-plugin-eslint": "~4.5.13",
+    "@vue/cli-plugin-pwa": "~4.5.13",
+    "@vue/cli-plugin-router": "~4.5.13",
+    "@vue/cli-plugin-unit-jest": "~4.5.13",
+    "@vue/cli-plugin-vuex": "~4.5.13",
+    "@vue/cli-service": "~4.5.13",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "@vue/test-utils": "^1.0.3",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-vue": "^6.2.2",
+    "prettier": "^2.2.1",
+    "sass": "~1.32.0",
+    "sass-loader": "^10.0.0",
+    "vue-cli-plugin-vuetify": "~2.4.8",
+    "vue-template-compiler": "^2.6.11",
+    "vuetify-loader": "^1.7.0"
+  }
+}
