@@ -12,6 +12,9 @@
 
 Landing page with [Vue.js](https://vuejs.org/), [Vuetify](https://vuetifyjs.com/) and [Restify](https://github.com/restify/node-restify).
 
+# Demo 
+
+Open Demo: [Devskillsvue live demo](https://devskillsvue.netlify.app/)
 ## Project setup
 
 ##### Folder Structure
