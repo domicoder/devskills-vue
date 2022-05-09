@@ -4,7 +4,7 @@ const state = () => ({
   fetchingMembersErrors: {
     code: "",
     message: "",
-    statusCode: 200,
+    statusCode: 0,
   },
 });
 
@@ -34,7 +34,7 @@ const actions = {
     const fetchingMembersErrors = {
       code: "",
       message: "",
-      statusCode: 200,
+      statusCode: 0,
     };
     commit("setFetchingMembersErrors", fetchingMembersErrors);
   },
