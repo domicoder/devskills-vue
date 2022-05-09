@@ -7,4 +7,9 @@ module.exports = {
       return args;
     });
   },
+  pwa: {
+    workboxOptions: {
+      exclude: [/_redirects/],
+    },
+  },
 };
